@@ -15,9 +15,8 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
+  about: /about
   articles: /archives/
-  projects: projects_url
 
 
 # Links to your social media accounts.
@@ -25,11 +24,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  twitter: https://twitter.com/nicolasanjoran
+  facebook: https://fb.me/nicolasanjoran
+  github: https://github.com/nicolasanjoran
+  linkedin: https://fr.linkedin.com/in/nicolas-anjoran-a9751563
+#  mail: mailto:name@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -115,13 +114,13 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: atom.xml
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
-  fb_app_id:
+  fb_app_id: 
   fb_admins:
-  twitter_id:
+  twitter_id: nicolasanjoran
   google_plus:
 
 
